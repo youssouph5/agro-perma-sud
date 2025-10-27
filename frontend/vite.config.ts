@@ -25,6 +25,8 @@ export default defineConfig({
       'localhost',
       'agro-perma-sud.com',
       'www.agro-perma-sud.com',
+      'agro-perma-sud.loca.lt',
+      '.loca.lt', // Autoriser tous les sous-domaines loca.lt
     ],
     proxy: {
       '/api': {

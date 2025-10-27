@@ -8,9 +8,29 @@ Votre site est accessible sur: `https://agro-perma-sud.com` (local)
 
 ---
 
-## 🌍 Déployer GRATUITEMENT en production
+## 🌍 Rendre votre site accessible sur Internet - GRATUIT
 
-### Option recommandée: Railway
+### Option 1: Telebit (⚡ Le plus rapide - 5 minutes)
+
+**Exposer votre serveur local sur Internet IMMÉDIATEMENT**
+
+**Avantages:**
+- ✅ **Installation en 2 commandes**
+- ✅ HTTPS automatique avec certificat Let's Encrypt valide
+- ✅ Accessible sur `https://agro-perma-sud.telebit.io`
+- ✅ Parfait pour démos et tests
+- ✅ 100% GRATUIT
+
+**Lancement ultra-rapide:**
+```bash
+./telebit-start.sh
+```
+
+📖 **Guide complet**: [TELEBIT-GUIDE.md](TELEBIT-GUIDE.md)
+
+---
+
+### Option 2: Railway (☁️ Hébergement cloud permanent)
 
 **Avantages:**
 - ✅ **Totalement GRATUIT** pour validation de projet (500h/mois)
