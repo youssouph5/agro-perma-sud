@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation de réservation</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+        <h1 style="color: #2E7D32;">Réservation confirmée !</h1>
+
+        <p>Bonjour {{ user.first_name or user.email }},</p>
+
+        <p>Votre réservation a été confirmée avec succès.</p>
+
+        <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <h2 style="margin-top: 0;">Détails de la réservation</h2>
+            <p><strong>Code de confirmation :</strong> {{ booking.confirmation_code }}</p>
+            <p><strong>Nombre de participants :</strong> {{ booking.participants }}</p>
+            <p><strong>Prix total :</strong> {{ booking.total_price }} €</p>
+        </div>
+
+        <p>Merci de votre confiance !</p>
+
+        <p style="margin-top: 40px; color: #666; font-size: 14px;">
+            L'équipe Agroécologie & Permaculture
+        </p>
+    </div>
+</body>
+</html>
