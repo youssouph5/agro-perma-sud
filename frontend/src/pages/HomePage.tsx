@@ -72,7 +72,7 @@ const HomePage = () => {
     <div>
       {/* Hero Section */}
       <HeroSection
-        title="Univers de l'Agroécologie et de la Permaculture"
+        title="Univers de l'Agroécologie et de la Permaculture au Sénégal"
         subtitle="Formez-vous, inspirez-vous et transformez votre approche de l'agriculture pour une agriculture saine et durable"
         ctaText="Découvrir nos formations"
         ctaLink="/formations"
